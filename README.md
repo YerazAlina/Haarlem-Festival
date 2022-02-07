@@ -1,4 +1,4 @@
-# Haarlem Festival - The Moon Companu
+# Haarlem Festival - The Moon Company
 
 ## Contents
 * [URL](#url)
