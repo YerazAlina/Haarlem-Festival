@@ -1,5 +1,26 @@
+/* main */
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;    
 }
+
+/* login */
+.wrapper{
+    margin: auto;
+    width: 360px;
+    padding: 30px;
+}
+
+.maintxt {
+    background-image: url(../img/loginhaarlem.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-style: bold;
+}
+
+/* navigation bar */
+
+
+/**/
