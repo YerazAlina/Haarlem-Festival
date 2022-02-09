@@ -4,7 +4,7 @@
             &copy; 2022 Copyright Haarlem Festival
         </section>
     </div>
-    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.06);">
         <a class="text-dark">Privacy Policy / Terms of Use / Cookie Policy / Access Equality</a>
     </div>
 </footer>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
@@ -11,7 +11,19 @@
 
 <body>
 
-    <div class="wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
+                <div class="maintxt">
+                    Management Haarlem Festival
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="box" style="background-color:#A42323; position:absolute;"></div> -->
+
+    <div class="wrapper" style="background-color:#FAFAFA;">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
 
@@ -24,8 +36,9 @@
                 <label>Password</label>
                 <input type="password" name="password" class="form-control">
             </div>
+            <br>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login" name="login">
+                <input type="submit" class="btn" value="Login" name="login" style="background-color:#844242; color: white; width: 120px;">
             </div>
         </form>
     </div>
