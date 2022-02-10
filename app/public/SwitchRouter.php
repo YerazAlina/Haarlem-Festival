@@ -7,7 +7,7 @@ class SwitchRouter
         switch ($uri) {
             case '':
                 //http://localhost/
-                require __DIR__ . '/views/cms/login.php';
+                require __DIR__ . '/views/cms/homecms.php';
                 break;
             case 'dashboard':
                 require __DIR__ . '/views/cms/dashboard.php';
@@ -16,10 +16,10 @@ class SwitchRouter
                 require __DIR__ . '/views/cms/homecms.php';
                 break;
             case 'login':
-                require __DIR__ . '';
+                require __DIR__ . '/views/cms/login.php';
                 break;
             default:
-                echo '404 not found';
+                echo '404 not found ';
                 http_response_code(404);
         }
     }

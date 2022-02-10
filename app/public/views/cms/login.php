@@ -1,3 +1,5 @@
+<?php require_once __DIR__. '/check.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +12,10 @@
 </head>
 
 <body>
-
-    <div class="container">
+    <a class="navbar-brand me-6">
+        <img src="../../img/logo.png" height="70" alt="Haarlem Festival" style="margin: auto;" />
+    </a>
+    <div class="container" style="float:right;">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
                 <div class="maintxt">
@@ -21,7 +25,7 @@
         </div>
     </div>
 
-    <!-- <div class="box" style="background-color:#A42323; position:absolute;"></div> -->
+    <hr width="100%;" color="#FAFAFA" size="40">
 
     <div class="wrapper" style="background-color:#FAFAFA;">
         <h2>Login</h2>
@@ -30,7 +34,7 @@
         <form action="login" method="post">
             <div class="form-group">
                 <label>Email</label>
-                <input type="text" name="email" class="form-control">
+                <input type="text" name="username" class="form-control">
             </div>
             <div class="form-group">
                 <label>Password</label>
