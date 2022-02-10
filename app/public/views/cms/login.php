@@ -1,4 +1,4 @@
-<?php require_once __DIR__. '/check.php'; ?>
+<?php require_once __DIR__ . '/check.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +17,8 @@
     </a>
     <div class="container" style="float:right;">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    Management Haarlem Festival
-                </div>
+            <div class="maintxt">
+                Management Haarlem Festival
             </div>
         </div>
     </div>
