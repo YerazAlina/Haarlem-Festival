@@ -31,6 +31,6 @@
             <i class="fa fa-bell" style="color: white;"></i>
         </a>
         <img src="../../img/avatar.png" alt="Avatar" class="avatar" style="vertical-align: middle; width: 40px; height: 40px; border-radius: 50%;">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="color: white; text-decoration: none;"> name <?php ?> </a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="color: white; text-decoration: none;"> <?php echo"user";//$user->getUsername()?> </a>
     </div>
 </nav>

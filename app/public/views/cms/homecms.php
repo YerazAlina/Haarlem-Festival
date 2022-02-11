@@ -13,7 +13,7 @@
 	<?php require __DIR__ . '/navigation.php'; ?>
 
 	<br>
-	
+
 	<nav>
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item active">Home</li>
@@ -42,13 +42,21 @@
 					<li>No smoking</li>
 				</ul>
 
-				<button type="button" class="btn btn-light" style="background-color:#844242; color:white; height:50px; width: 240px;">Visit the website</button>
+				<a href="updateprogram">
+					<button type="button" class="btn btn-light" style="background-color:#844242; color:white; height:50px; width: 240px;">Visit the website</button>
+				</a>
+			</div>
 
-			</div>
 			<div class="col-8 d-flex justify-content-center text-center">
-				<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Update Program</button>
-				<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Dashboard</button>
+				<!-- <button style="font-size:24px; background-color:#A42323; color:white; height:50px;">Update Program <i class="fa fa-calendar"></i></button> -->
+				<a href="updateprogram">
+					<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Update Program</button>
+				</a>
+				<a href="dashboard">
+					<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Dashboard</button>
+				</a>
 			</div>
+			
 		</div>
 	</div>
 
