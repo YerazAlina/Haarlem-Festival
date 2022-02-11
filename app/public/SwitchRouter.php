@@ -9,7 +9,7 @@ class SwitchRouter
     public function route($uri, $method, $body, $path)
 
     {
-
+        //echo "$uri";
         switch ($uri) {
 
             case '':
