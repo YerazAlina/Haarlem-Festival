@@ -21,8 +21,9 @@ class SwitchRouter
             case 'dashboard':
                 require __DIR__ . '/views/cms/dashboard.php';
                 break;
-            case 'updateprogram':
+            case 'updateprogra':
                 require __DIR__ . '/views/cms/updateprogram.php';
+                //hlkhk
                 break;
             default:
                 echo '404 not found ';
