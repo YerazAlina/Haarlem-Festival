@@ -4,6 +4,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.navbar-expand-lg {
+    color: #A42323;
+}
 
 /* login */
 .wrapper {

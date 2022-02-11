@@ -21,6 +21,9 @@ class SwitchRouter
             case 'dashboard':
                 require __DIR__ . '/views/cms/dashboard.php';
                 break;
+            case 'homePage':
+                require __DIR__ . '/views/homePage.php';
+                break;
             default:
                 echo '404 not found ';
                 http_response_code(404);

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light" style="background-color: #A42323;">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="../../img/logo.png" height="70" alt="Haarlem Festival" style="margin-top: -5px;" />
