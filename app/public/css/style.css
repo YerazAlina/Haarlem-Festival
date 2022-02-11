@@ -2,22 +2,26 @@
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;    
+    width: 100%;
 }
 
 /* login */
-.wrapper{
+.wrapper {
     margin: auto;
     width: 360px;
     padding: 30px;
 }
 
 .maintxt {
+    width: 1000px;
+    height: 217px;
+    left: 440px;
     background-image: url(../img/loginhaarlem.png);
-    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    color: white;
     font-style: bold;
+    font-size: 50px;
+    text-align: center;
 }
 
 /* navigation bar */

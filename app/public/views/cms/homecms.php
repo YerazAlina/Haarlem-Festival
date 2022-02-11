@@ -13,6 +13,7 @@
 	<?php require __DIR__ . '/navigation.php'; ?>
 
 	<br>
+	
 	<nav>
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item active">Home ok</li>
