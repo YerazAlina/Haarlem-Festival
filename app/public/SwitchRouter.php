@@ -18,6 +18,9 @@ class SwitchRouter
             case 'login':
                 require __DIR__ . '';
                 break;
+            case 'homepage':
+                require __DIR__ . '/homepage.php';
+                break;
             default:
                 echo '404 not found';
                 http_response_code(404);
