@@ -5,7 +5,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light home-page" style="background-color: #A42323;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="homePage">
                 <img src="../../img/logo.png" height="70" alt="Haarlem Festival" style="margin-top: -5px;" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,7 +34,7 @@
 
         <div class="d-flex align-items-center" style="gap: 20px;">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
-                text-decoration: none;">ENG<span class="caret"></span></a>
+            style="color: black; text-decoration: none;">ENG<span class="caret"></span></a>
         </div>
     </nav>
 
