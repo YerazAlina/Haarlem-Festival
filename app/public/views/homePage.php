@@ -3,7 +3,7 @@
 <?php require __DIR__ . '/head.php'; ?>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #A42323;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light home-page" style="background-color: #A42323;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../../img/logo.png" height="70" alt="Haarlem Festival" style="margin-top: -5px;" />
@@ -40,36 +40,36 @@
 
 
     <section class="row justify-content-center align-self-center text-center">
-        <section class="col-3 h-100">
-            <section class="col-12" style="background-color: black; margin-top: 2%;">
-                <h2 class="headereventpage"><a href="#">Jazz</a></h2>
-                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="200">
+        <section class="col-3 h-100" style=" margin-top: 50px;">
+            <a href="#" class="col-12" style="">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
+                <h2 class="bottom-right" style="color:white;  transform: translate(-0%, -100%);">Jazz</h2>
 
-            </section>
+            </a>
         </section>
 
-        <section class="col-3 h-100">
-            <section class="col-12" style="background-color: black; margin-top: 2%;">
-                <h2 class="headereventpage"><a href="#">Dance</a></h2>
-                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="200">
+        <section class="col-3 h-100" style=" margin-top: 50px;">
+            <a href="#" class="col-12" style="">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
+                <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">Dance</h2>
 
-            </section>
+            </a>
         </section>
 
-        <section class="col-3 h-100">
-            <section class="col-12" style="background-color: black; margin-top: 2%;">
-                <h2 class="headereventpage"><a href="#">Food</a></h2>
-                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="200">
+        <section class="col-3 h-100" style=" margin-top: 50px;">
+            <a href="#" class="col-12" style="">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
+                <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">Food</h2>
 
-            </section>
+            </a>
         </section>
 
-        <section class="col-3 h-100">
-            <section class="col-12" style="background-color: black; margin-top: 2%;">
-                <h2 class="headereventpage"><a href="#">History</a></h2>
-                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="200">
+        <section class="col-3 h-100" style=" margin-top: 50px;">
+            <a href="#" class="col-12" style="">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
+                <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">History</h2>
 
-            </section>
+            </a>
         </section>
     </section>
 
