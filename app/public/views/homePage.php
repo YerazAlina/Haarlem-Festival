@@ -40,18 +40,17 @@
 
 
     <section class="row justify-content-center align-self-center text-center">
-        <section class="col-3 h-100" style=" margin-top: 50px;">                   
-            <a href="#" class="col-12" style="">              
-                <img class="eventimg" src="../img/jazz.png" width="300" height="600">
+        <section class="col-3 h-100" style=" margin-top: 50px;">
+            <a href="#" class="col-12" style="">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
                 <h2 class="bottom-right" style="color:white;  transform: translate(-0%, -100%);">Jazz</h2>
 
             </a>
-            
         </section>
 
         <section class="col-3 h-100" style=" margin-top: 50px;">
             <a href="#" class="col-12" style="">
-                <img class="eventimg" src="../img/dj.jpg" width="300" height="600">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
                 <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">Dance</h2>
 
             </a>
@@ -59,7 +58,7 @@
 
         <section class="col-3 h-100" style=" margin-top: 50px;">
             <a href="#" class="col-12" style="">
-                <img class="eventimg" src="../img/food.jpg" width="300" height="600">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
                 <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">Food</h2>
 
             </a>
@@ -67,7 +66,7 @@
 
         <section class="col-3 h-100" style=" margin-top: 50px;">
             <a href="#" class="col-12" style="">
-                <img class="eventimg" src="../img/bavokerk.jpg" width="300" height="600">
+                <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
                 <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">History</h2>
 
             </a>
