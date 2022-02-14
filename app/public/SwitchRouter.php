@@ -1,7 +1,5 @@
 <?php
 
-
-
 class SwitchRouter
 
 {
@@ -21,8 +19,8 @@ class SwitchRouter
                 break;
 
             case 'login':
-
-                require __DIR__ . '/views/cms/login.php';
+                
+               require __DIR__ . '/views/cms/login.php';
 
                 break;
 
@@ -42,6 +40,9 @@ class SwitchRouter
 
                 require __DIR__ . '/views/cms/dashboard.php';
 
+                break;
+             case 'homePage':
+                require __DIR__ . '/views/homePage.php';
                 break;
 
             default:
