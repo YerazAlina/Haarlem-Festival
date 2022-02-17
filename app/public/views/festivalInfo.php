@@ -154,7 +154,7 @@
             <div class="col">
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="bus-icon.png" width="50" height="50">
+                        <img src="../../img/festivalinfo/bus-icon.png" width="50" height="50">
 
                         <h6> Bus </h6>
                     </div>
