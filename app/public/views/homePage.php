@@ -14,27 +14,30 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Program</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Festival info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">FAQ</a>
-                    </li>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button><a type="button" class="nav-link active" aria-current="page"
+                                    href="#">Home</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button><a class="nav-link active" aria-current="page" href="#">Program</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button><a class="nav-link active" aria-current="page" href="#">Festival info</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button><a class="nav-link active" aria-current="page" href="#">FAQ</a></button>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <div class="d-flex align-items-center" style="gap: 20px;">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
-            style="color: black; text-decoration: none;">ENG<span class="caret"></span></a>
+                style="color: black; text-decoration: none;">ENG<span class="caret"></span></a>
         </div>
     </nav>
 
