@@ -27,6 +27,9 @@ class SwitchRouter
             case 'homePage':
                 require __DIR__ . '/views/homePage.php';
                 break;
+            case 'mainpage':
+                require __DIR__ . '/views/jazz/mainpage.php';
+                break;
             default:
                 echo '404 not found';
                 http_response_code(404);
