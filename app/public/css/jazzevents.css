@@ -1,0 +1,134 @@
+.navbar{
+    background-color: #A42323;
+}
+
+.line-up{
+    position: absolute;
+    width: 1441px;
+    height: 155px;
+    left: -1px;
+    top: 574px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: rgba(239, 224, 224, 0.53);
+}
+
+.title{
+    position: absolute;
+    width: 558px;
+    height: 95px;
+    left: 440px;
+    top: 453px;
+
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 91px;
+
+    color: #FFFFFF;
+}
+
+.day-buttons{
+    width: available;
+    height: available;
+    padding-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.thursday-button, .friday-button, .saturday-button, .sunday-button{
+    background-color: #EFE0E0;
+    border-style: none;
+    width: 280px;
+    height: 60px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.events{
+    padding: 50px;
+
+}
+
+.event-day{
+    background-color: #E59F71;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    margin-top: -17px;
+
+}
+
+.location, .explore-more{
+    background-color: #8C5E58;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.explore-more{
+    margin-bottom: 60px;
+}
+
+.explore-more-card{
+    padding: 70px;
+    border-style: none;
+    align-items: center;
+}
+
+.explore-label{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #A42323;
+}
+
+.card-body-location{
+    padding: 40px;
+    height: 403px;
+    background-color: #EFE0E0;
+    font-weight: bold;
+}
+
+.card-body-event{
+    padding: 15px;
+    height: 200px;
+}
+
+.card-footer{
+    alignment: right;
+}
+
+
+.date-box{
+    position: absolute;
+    width: 62px;
+    height: 76px;
+    left: 386px;
+    top: 1037px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body-location{
+        height: 750px;
+    }
+
+
+}

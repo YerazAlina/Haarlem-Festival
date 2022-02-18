@@ -30,6 +30,8 @@ class SwitchRouter
             case 'festivalinfo':
                 require __DIR__ . '/views/festivalInfo.php';
                 break;
+            case 'jazzevents':
+                require __DIR__ . '/views/jazz/jazzevents.php'; 
             default:
                 echo '404 not found';
                 http_response_code(404);
