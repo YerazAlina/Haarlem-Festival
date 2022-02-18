@@ -27,7 +27,18 @@ footer {
     text-align: center;
 }
 
-/* navigation bar */
+nav.events {
+    color: #A42323;
+}
+
+nav.home-page {
+    color: #A42323;
+}
+
+img.eventimg {
+    width: 100%;
+    height: 400px;
+}
 
 
 /**/

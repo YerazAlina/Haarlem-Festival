@@ -3,9 +3,9 @@
 <?php require __DIR__ . '/head.php'; ?>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light home-page" style="background-color: #A42323;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light home-page">
         <div class="container-fluid">
-            <a class="navbar-brand" href="homePage">
+            <a class="navbar-brand" href="home">
                 <img src="../../img/logo.png" height="70" alt="Haarlem Festival" style="margin-top: -5px;" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -17,17 +17,17 @@
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <button><a type="button" class="nav-link active" aria-current="page"
-                                    href="#">Home</a></button>
+                            <a type="button" class="nav-link active" aria-current="page"
+                                    href="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <button><a class="nav-link active" aria-current="page" href="#">Program</a></button>
+                            <a class="nav-link active" aria-current="page" href="#">Program</a>
                         </li>
                         <li class="nav-item">
-                            <button><a class="nav-link active" aria-current="page" href="#">Festival info</a></button>
+                            <a class="nav-link active" aria-current="page" href="#">Festival info</a>
                         </li>
                         <li class="nav-item">
-                            <button><a class="nav-link active" aria-current="page" href="#">FAQ</a></button>
+                            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
                         </li>
 
                     </ul>
@@ -60,7 +60,7 @@
         </section>
 
         <section class="col-3 h-100" style=" margin-top: 50px;">
-            <a href="#" class="col-12" style="">
+            <a href="food" class="col-12" style="">
                 <img class="eventimg" src="../img/loginhaarlem.png" width="300" height="600">
                 <h2 class="bottom-right" style="color:white; transform: translate(-0%, -100%);">Food</h2>
 
