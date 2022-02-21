@@ -1,4 +1,5 @@
 <?php
+
 require_once("model.php");
 require_once("restaurant.php");
 require_once("restaurantType.php");
