@@ -19,7 +19,7 @@ class restaurant extends model {
     
     protected const sqlTableName = "restaurant";
     protected const sqlFields = ["id", "locationId", "name", "description", "seats", "phonenumber", "price", "website", "menu", "contact"];
-    protected const sqlLinks = ["locationid" => location::class];
+    protected const sqlLinks = ["locationId" => location::class];
 
     public function constructor(int $id, location $location, string $name, string $description, int $seats, int $phoneNumber, float $price, string $website, string $menu, string $contact){
         
@@ -36,8 +36,7 @@ class restaurant extends model {
         return $this;
     }
 
-    public function getSqlFields()
-    {
+    public function getSqlFields() {
         return [
             "id" => $this->id,
             "locationId" => $this->location->getId(),
