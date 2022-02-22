@@ -1,3 +1,8 @@
+<?php session_start();
+if (isset($_SESSION['username'])) {
+	$name = $_SESSION['username'];
+} ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +22,7 @@
 	<nav>
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item">Home</li>
-			<li class="breadcrumb-item active">Dashboard</li>
+			<li class="breadcrumb-item active">Invoices</li>
 		</ol>
 	</nav>
 

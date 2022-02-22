@@ -9,14 +9,20 @@ class SwitchRouter
                 //http://localhost/
                 require __DIR__ . '/views/cms/login.php';
                 break;
-            case 'dashboard':
-                require __DIR__ . '/views/cms/dashboard.php';
+            case 'invoices':
+                require __DIR__ . '/views/cms/invoices.php';
+                break;
+            case 'updateprogram':
+                require __DIR__ . '/views/cms/updateprogram.php';
                 break;
             case 'homecms':
                 require __DIR__ . '/views/cms/homecms.php';
                 break;
             case 'login':
                 require __DIR__ . '/views/cms/login.php';
+                break;
+            case 'register':
+                require __DIR__ . '/views/cms/register.php';
                 break;
             case 'logout':
                 require __DIR__ . '/views/cms/logout.php';

@@ -1,3 +1,8 @@
+<?php session_start();
+if (isset($_SESSION['username'])) {
+	$name = $_SESSION['username'];
+} ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,11 +57,11 @@
 				<a href="updateprogram">
 					<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Update Program</button>
 				</a>
-				<a href="dashboard">
-					<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Dashboard</button>
+				<a href="invoices">
+					<button type="button" class="btn btn-light" style="background-color:#A42323; color:white; height:50px;">Invoices</button>
 				</a>
 			</div>
-			
+
 		</div>
 	</div>
 
