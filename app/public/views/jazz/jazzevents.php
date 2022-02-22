@@ -290,11 +290,11 @@
 
         <!-----------------------Location box ----------------------------->
 
-        <div class="col-md-8 mb-4">
-            <div class="card">
-                <div class="card-header location">
+        <section class="col-md-8 mb-4">
+            <section class="card">
+                <section class="card-header location">
                     LOCATION
-                </div>
+                </section>
 
                 <div class="card-body-location">
                     <div class="row">
@@ -341,6 +341,100 @@
 </section>
 
 
+
+<div class="card day-pass">
+    <div class="row">
+        <div class="col-5">
+            <img src="../../img/jazzevents/Rectangle%20503.png" alt="...">
+            <div class="card-img-overlay">
+                <div class="event-day">
+                    <p class="date"> day </p>
+                    <p class="date"> month </p>
+                </div>
+                <div class="day-pass-heading">
+                    <p> 3 DAY </p>
+                    <p>ALL- ACCESS PASS </p>
+                </div>
+                <div class="day-pass-subtitle">
+                    <p>€ 80.00 </p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card-body">
+                <h5 class="card-title">Thursday - Saturday </h5>
+                <p class="card-text">All jazz events, thursday through saturday, will be accessible for the low price of € 80.00 with this 3 day all-access pass. </p>
+                <button type="submit" class="btn btn-warning btn-md">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br><br>
+
+<div class="row recommended-events">
+    <h3 class="rec-title"> Complete your day </h3>
+    <div class="col mt-md-4">
+        <div class="card h-100 complete-day">
+            <img src="../../img/jazzevents/history-image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Event title" </h5>
+                <p class="card-subtitle">Short description</p>
+                <p> time of event </p>
+                <button type="submit" class="btn btn-warning btn-md">tickets >> </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="col mt-md-4">
+        <div class="card h-100 complete-day">
+            <img src="../../img/jazzevents/history-image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Event title" </h5>
+                <p class="card-subtitle">Short description</p>
+                <p> time of event </p>
+                <button type="submit" class="btn btn-warning btn-md">tickets >> </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="col mt-md-4">
+        <div class="card h-100 complete-day">
+            <img src="../../img/jazzevents/history-image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Event title" </h5>
+                <p class="card-subtitle">Short description</p>
+                <p> time of event </p>
+                <button type="submit" class="btn btn-warning btn-md">tickets >> </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="col mt-md-4">
+        <div class="card h-100 complete-day">
+            <img src="../../img/jazzevents/history-image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Event title" </h5>
+                <p class="card-subtitle">Short description</p>
+                <p> time of event </p>
+                <button type="submit" class="btn btn-warning btn-md">tickets >> </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<br><br>
+
+
+
 <div class="card explore-more-card col-md-12">
     <div class="card-header explore-more">
         EXPLORE MORE
@@ -370,6 +464,26 @@
     </div>
 </div>
 
+
+<div class="container newsletter-box">
+    <div class="container newsletter-inner">
+        <h2>SIGN UP </h2>
+        <h6> Sign up to our newsletter to get first access to our line-up announcements, limited ticket releases and all our latest news </h6>
+        <br><br>
+        <div class="row">
+            <div class="col">
+
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-warning btn-md">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

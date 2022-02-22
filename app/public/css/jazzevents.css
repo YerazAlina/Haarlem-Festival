@@ -84,6 +84,7 @@
 
 .explore-more{
     margin-bottom: 60px;
+    width: 1000px;
 }
 
 .explore-more-card{
@@ -125,10 +126,46 @@
     top: 1037px;
 }
 
-@media only screen and (max-width: 600px) {
-    .card-body-location{
-        height: 750px;
-    }
 
+.newsletter-box{
+    padding: 70px;
+    background-image: url("../../img/jazzevents/sign-up-background.png");
+    margin-bottom: 20px;
+}
+
+.newsletter-inner{
+    padding: 30px;
+    background-color: #9C3B8A;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.day-pass{
+    border: none;
+    margin-left: 100px;
+}
+
+.day-pass-heading{
+    font-size: 25px;
 
 }
+
+
+.recommended-events{
+    padding: 100px;
+
+}
+
+.complete-day{
+    align-items: center;
+    background-color: #EFE0E0;
+}
+
+.rec-title{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
