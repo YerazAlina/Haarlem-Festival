@@ -15,5 +15,3 @@ LOCK TABLES `users` WRITE;
 
 INSERT INTO `users`(`id`, `username`, `password`, `created_at`) VALUES ('1','student','Hello123', CAST(N'2021-06-18 10:34:09.000' AS DateTime))
 INSERT INTO `users`(`id`, `username`, `password`, `created_at`) VALUES ('2','evavnzee@outlook.com','Hello1234', CAST(N'2021-06-18 10:34:09.000' AS DateTime))
-
-UNLOCK TABLES;

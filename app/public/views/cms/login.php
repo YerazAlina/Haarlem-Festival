@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/check.php'; ?>
+<?php require_once __DIR__ . '/check.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
