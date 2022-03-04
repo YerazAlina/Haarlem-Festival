@@ -1,5 +1,5 @@
 CREATE TABLE account(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	username VARCHAR(40) NOT NULL,
 	password VARCHAR(60) NOT NULL,
 	email VARCHAR(75) NOT NULL,
@@ -9,13 +9,13 @@ CREATE TABLE account(
 );
 
 CREATE TABLE restaurantType(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	name VARCHAR(40),
 	PRIMARY KEY (id)
 );
 
 CREATE TABLE [location](
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	name VARCHAR(50),
 	address VARCHAR(50) NOT NULL,
 	postalCode VARCHAR(10) NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE [location](
 );
 
 CREATE TABLE restaurant(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	locationId INT NOT NULL,
 	name VARCHAR(40) NOT NULL,
 	description VARCHAR(1000),
@@ -39,7 +39,7 @@ CREATE TABLE restaurant(
 );
 
 CREATE TABLE restaurantTypelink(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	restaurantTypeId INT NOT NULL,
 	restaurantId INT NOT NULL,
 	PRIMARY KEY (id),
@@ -48,7 +48,7 @@ CREATE TABLE restaurantTypelink(
 );
 
 CREATE TABLE activity(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	type VARCHAR(100) NOT NULL,
 	date date NOT NULL,
 	startTime time NOT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE activity(
 );
 
 CREATE TABLE foodactivity(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	restaurantId INT NOT NULL,
 	activityId INT NOT NULL,
 	PRIMARY KEY (id),
@@ -70,7 +70,7 @@ CREATE TABLE foodactivity(
 );
 
 CREATE TABLE customer(
-	id INT NOT NULL identity (1, 1),
+	id INT NOT NULL AUTO_INCREMENT,
 	firstName VARCHAR(40) NOT NULL,
 	lastname VARCHAR(40) NOT NULL,
 	locationId INT NOT NULL,
