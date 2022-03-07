@@ -21,15 +21,20 @@ class SwitchRouter
             case 'logout':
                 require __DIR__ . '/views/cms/logout.php';
                 break;
+            case 'faqPage':
+                    require __DIR__ . '/views/cms/faqPage.php';
+                    break;
+                 
+                 
             case 'homepage':
-                require __DIR__ . '/homepage.php';
+                require __DIR__ . '/views/homepage.php';
                 break;
             case 'homePage':
-                require __DIR__ . '/views/homePage.php';
+                echo "test"; require __DIR__ . '/views/homePage.php';
                 break;
             default:
                 echo '404 not found';
-                http_response_code(404);
+                //http_response_code(404);
         }
     }
 }

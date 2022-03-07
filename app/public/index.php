@@ -1,7 +1,7 @@
 <?php
 
 require_once('./SwitchRouter.php');
-
+echo $_SERVER['REQUEST_URI'];
 $uri = trim($_SERVER['REQUEST_URI'], '/');
 $method = $_SERVER['REQUEST_METHOD'];
 $path = explode('/', $uri);
